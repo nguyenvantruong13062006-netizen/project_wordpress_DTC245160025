@@ -81,7 +81,7 @@ services:
 
   # 7. LOKI (Lưu Log)
   loki:
-    image: grafana/loki:latest
+    image: grafana/loki:2.9.3
     container_name: loki
     restart: unless-stopped
     ports:
